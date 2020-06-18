@@ -13,6 +13,7 @@
 		670986EE244CC8E200693E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670986ED244CC8E200693E21 /* Assets.xcassets */; };
 		670986F1244CC8E200693E21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670986F0244CC8E200693E21 /* Preview Assets.xcassets */; };
 		670986F4244CC8E200693E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670986F2244CC8E200693E21 /* LaunchScreen.storyboard */; };
+		67BBA463244D3FB1001DA699 /* CardsOverWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BBA462244D3FB1001DA699 /* CardsOverWhite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		670986F0244CC8E200693E21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		670986F3244CC8E200693E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		670986F5244CC8E200693E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BBA462244D3FB1001DA699 /* CardsOverWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsOverWhite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				670986F2244CC8E200693E21 /* LaunchScreen.storyboard */,
 				670986F5244CC8E200693E21 /* Info.plist */,
 				670986EF244CC8E200693E21 /* Preview Content */,
+				67BBA462244D3FB1001DA699 /* CardsOverWhite.swift */,
 			);
 			path = ProfileSingleView;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				670986E8244CC8DF00693E21 /* AppDelegate.swift in Sources */,
+				67BBA463244D3FB1001DA699 /* CardsOverWhite.swift in Sources */,
 				670986EA244CC8DF00693E21 /* SceneDelegate.swift in Sources */,
 				670986EC244CC8DF00693E21 /* ContentView.swift in Sources */,
 			);
