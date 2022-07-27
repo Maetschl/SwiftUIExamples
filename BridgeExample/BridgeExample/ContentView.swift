@@ -11,10 +11,12 @@ struct ContentView: View {
     var body: some View {
         SquareCard(with: SimpleTextContent(text: "Some"))
         SquareCard(with: PersonContent(name: "Julián", lastName: "Arias"))
-        SquareCard(with: OnlyColorContent(color: .yellow))
+        SquareCard(with: OnlyColorContent(color: .red))
+
         CircleCard(with: SimpleTextContent(text: "Some"))
         CircleCard(with: PersonContent(name: "Julián", lastName: "Arias"))
-        CircleCard(with: OnlyColorContent(color: .yellow))
+        CircleCard(with: OnlyColorContent(color: .green))
+
         CircleBorderedCard(with: SimpleTextContent(text: "Some"))
         CircleBorderedCard(with: PersonContent(name: "Julián", lastName: "Arias"))
         CircleBorderedCard(with: OnlyColorContent(color: .yellow))
